@@ -1,14 +1,14 @@
 // Modules
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
-import { HttpModule } from "@angular/http";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
-import { AppRoutingModule } from "./app-routing.module";
-import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 // Components
 import { AppComponent } from "./app.component";
+import { PredictiveSearchComponent } from "./predictive-search.component";
+import { QuickBookmarksComponent } from "./quick-bookmarks.component";
 
 // Services
 // import service from service file
@@ -17,14 +17,14 @@ import { AppComponent } from "./app.component";
   imports:      [
     BrowserModule,
     ReactiveFormsModule,
-    HttpModule,
     FormsModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
     NgbModule.forRoot()
   ],
   declarations: [
-    AppComponent
+    AppComponent,
+    PredictiveSearchComponent,
+    QuickBookmarksComponent
   ],
   entryComponents: [
     // Components that are added mid-run (like modals)
