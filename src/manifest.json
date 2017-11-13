@@ -1,0 +1,11 @@
+{
+    "name": "Makiah's New Tab Page",
+    "description": "Gets you there fast.",
+    "manifest_version": 2, 
+    "version": "0.0.0.0",
+    "permissions" : ["management"],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "chrome_url_overrides" : {
+        "newtab": "index.html"
+    }
+ }
