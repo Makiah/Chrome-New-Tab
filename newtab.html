@@ -39,9 +39,18 @@
             font-size: 30px;
         }
 
+        p, h1, input {
+            font-family: Helvetica, Arial, sans-serif;
+            font-weight: lighter;
+        }
+
         p {
             margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+        	margin: 10px 0 0 0;
+        	font-size: 30px;
         }
 
         .bookmarksContainer {
@@ -62,12 +71,14 @@
             display: flex;
             justify-content: center;
             align-items: flex-end;
+
+            box-shadow: 2px 5px #a7a7a7;
         }
 
         .bookmark p {
             background: rgba(255, 255, 255, 0.6);
             color: black;
-            font-family: sans-serif;
+
             font-size: 15px;
         }
 
@@ -94,7 +105,7 @@
             </a>
 
             <a href="https://drive.google.com">
-                <div class="bookmark" style="background-image: url('./assets/drive-icon.svg')">
+                <div class="bookmark" style="background-image: url('./assets/drive-icon.png')">
                     <p>Drive</p>
                 </div>
             </a>
@@ -119,15 +130,21 @@
         </div>
         <hr>
         <div class="bookmarksContainer">
-            <h1>ResNet</h1>
+            <h1>College</h1>
 
             <a href="http://my.northeastern.edu/">
                 <div class="bookmark" style="background-image: url('./assets/northeastern-icon.jpg')">
                     <p>myNEU</p>
                 </div>
             </a>
+
+            <a href="http://northeastern.blackboard.com/">
+                <div class="bookmark" style="background-image: url('./assets/blackboard-icon.png')">
+                    <p>Blackboard</p>
+                </div>
+            </a>
             
-            <a href="https://app.wheniwork.com/">
+            <a href="https://resnet-1.wheniwork.com/myschedule/">
                 <div class="bookmark" style="background-image: url('./assets/wheniwork-icon.png')">
                     <p>WheniWork</p>
                 </div>
